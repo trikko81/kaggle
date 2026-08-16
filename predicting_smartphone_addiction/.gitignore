@@ -1,0 +1,18 @@
+# Data and checkpoints
+data/raw/*.csv
+data/processed/*.parquet
+data/processed/*.feather
+*.joblib
+*.pkl
+
+# Submissions and logs
+submissions/*.csv
+logs/
+
+# Python & Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.env
+catboost_info/
